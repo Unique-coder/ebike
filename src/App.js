@@ -1,6 +1,7 @@
 import EbikeSection from "./components/EbikeSection";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <div className="bike-contain">
         <EbikeSection />
       </div>
+      <Footer />
     </div>
   );
 };
