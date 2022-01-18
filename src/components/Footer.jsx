@@ -10,7 +10,7 @@ const Footer = () => {
                 </h3>
 
                 <p>
-                    Trafalgar provides progressive and affordable{'\n'} healthcare accessible on mobile and online{'\n'} for everyone.
+                    Trafalgar provides progressive and affordable <br/> healthcare accessible on mobile and online <br/> for everyone.
                 </p>
 
                 <p>
@@ -20,49 +20,60 @@ const Footer = () => {
 
             <div className='footer-right'>
 
-                <ul>
-                    <li>
-                        <a href="/" className='bold-footer-link'>Company</a>
-                    </li>
+                <div className='company-list'>
 
-                    <li>
-                        <a href="/">Product</a>
-                    </li>
+                    <ul>
+                        <li>
+                            <a href="/" className='bold-footer-link'>Company</a>
+                        </li>
 
-                    <li>
-                        <a href="/">Bike type</a>
-                    </li>
+                        <li>
+                            <a href="/">Product</a>
+                        </li>
 
-                    <li>
-                        <a href="/">About Us</a>
-                    </li>
+                        <li>
+                            <a href="/">Bike type</a>
+                        </li>
 
-                    <li>
-                        <a href="/">Contact</a>
-                    </li>
+                        <li>
+                            <a href="/">About Us</a>
+                        </li>
 
-                    <li>
-                        <a href="/" className='bold-footer-link'>Help</a>
-                    </li>
+                        <li>
+                            <a href="/">Contact</a>
+                        </li>
 
-                    <li>
-                        <a href="/">Help center</a>
-                    </li>
+                    </ul>
 
-                    <li>
-                        <a href="/">Contact support</a>
-                    </li>
+                </div>
 
-                    <li>
-                        <a href="/">Instructions</a>
-                    </li>
+                <div className='help-list'>
 
-                    <li>
-                        <a href="/">How it works</a>
-                    </li>
+                    <ul>
 
-                </ul>
+                        <li>
+                            <a href="/" className='bold-footer-link'>Help</a>
+                        </li>
 
+                        <li>
+                            <a href="/">Help center</a>
+                        </li>
+
+                        <li>
+                            <a href="/">Contact support</a>
+                        </li>
+
+                        <li>
+                            <a href="/">Instructions</a>
+                        </li>
+
+                        <li>
+                            <a href="/">How it works</a>
+                        </li>
+
+                    </ul>
+
+                </div>
 
             </div>
 
