@@ -36,7 +36,7 @@ a {
   margin: auto;
   min-height: 500px;
   border: 1px solid #ffbd37;
-  padding: 0px 40px;
+  padding: 0px 50px;
 }
 
 .btn {
@@ -47,6 +47,8 @@ a {
   /* border-top-right-radius: 10px;
   border-bottom-right-radius: 10px; */
   border-radius: 15px;
+  margin: 0;
+  font-weight: bold;
 }
 
 body {

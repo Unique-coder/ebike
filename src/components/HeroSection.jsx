@@ -7,13 +7,20 @@ const HeroSection = () => {
       <div className="hero-header">
         {/* Left Side */}
         <div className="left">
-          <h1 className="text-bold">Your Bike Electric Update</h1>
+          <h1 className="text-bold">
+            Your Bike <br />
+            Electric Update
+          </h1>
           <p className="text-soft">
-            Dummy text progressive, and affordable healthcare, accessible on
-            mobile and online for everyone
+            Dummy text progressive, and affordable <br />
+            healthcare, accessible on mobile and online for everyone
           </p>
           <div className="input-container">
-            <input type="text" placeholder="Search Bike or anything" />
+            <input
+              className="input-text"
+              type="text"
+              placeholder="Search Bike or anything"
+            />
             <button className="btn">Find</button>
           </div>
         </div>
