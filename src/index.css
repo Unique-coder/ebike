@@ -33,6 +33,7 @@ a {
   margin: auto;
   min-height: 500px;
   border: 1px solid #ffbd37;
+  padding: 0px 40px;
 }
 
 body {
