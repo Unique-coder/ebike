@@ -8,7 +8,7 @@
     margin-top: 50px;
 }
 
-ul li {
+li {
 
     color:#fff;
 }
@@ -21,6 +21,10 @@ ul li {
     height: 100%;
     width: 40%;
     justify-content: space-between;
+    margin: auto;
+    margin-left: 100px;
+    padding-top: 20px;
+    border-style: dashed;
 }
 
 .footer-right {
@@ -30,7 +34,8 @@ ul li {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto auto;
     float:right;
-    
+    border-style: dashed;
+    width: 40%;
 }
 
 .logo {
