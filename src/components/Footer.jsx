@@ -1,4 +1,4 @@
-import '/.Footer.css';
+import "./Footer.css";
 
 const Footer = () => {
     return (
@@ -6,7 +6,7 @@ const Footer = () => {
 
             <div className='footer-left'>
                 <h3>
-                    <span className="bold-B">B</span>eBike
+                    <span className="logo">B</span>eBike
                 </h3>
 
                 <p>
@@ -69,3 +69,5 @@ const Footer = () => {
         </div>
     )
 }
+
+export default Footer;
