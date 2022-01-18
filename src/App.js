@@ -1,5 +1,6 @@
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -8,6 +9,8 @@ const App = () => {
         <Navbar />
         <HeroSection />
       </div>
+      
+      <Footer />
     </div>
   );
 };
