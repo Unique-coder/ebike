@@ -20,6 +20,49 @@ const Footer = () => {
 
             <div className='footer-right'>
 
+                <ul>
+                    <li>
+                        <a href="/" className='bold-footer-link'>Company</a>
+                    </li>
+
+                    <li>
+                        <a href="/">Product</a>
+                    </li>
+
+                    <li>
+                        <a href="/">Bike type</a>
+                    </li>
+
+                    <li>
+                        <a href="/">About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="/">Contact</a>
+                    </li>
+
+                    <li>
+                        <a href="/" className='bold-footer-link'>Help</a>
+                    </li>
+
+                    <li>
+                        <a href="/">Help center</a>
+                    </li>
+
+                    <li>
+                        <a href="/">Contact support</a>
+                    </li>
+
+                    <li>
+                        <a href="/">Instructions</a>
+                    </li>
+
+                    <li>
+                        <a href="/">How it works</a>
+                    </li>
+
+                </ul>
+
 
             </div>
 
