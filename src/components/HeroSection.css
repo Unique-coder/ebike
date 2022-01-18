@@ -1,0 +1,13 @@
+.hero-header {
+  width: 100%;
+  display: flex;
+  border: 1px solid green;
+  margin-top: 40px;
+  min-height: 300px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

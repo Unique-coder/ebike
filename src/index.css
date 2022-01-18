@@ -9,6 +9,9 @@
 .primary {
   color: var(--primary);
 }
+.text-bold {
+  color: var(--text-bold);
+}
 .text-soft {
   color: var(--text-soft);
 }
@@ -34,6 +37,16 @@ a {
   min-height: 500px;
   border: 1px solid #ffbd37;
   padding: 0px 40px;
+}
+
+.btn {
+  background-color: var(--primary);
+  color: var(--text-bold);
+  border: none;
+  padding: 5px 25px;
+  /* border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px; */
+  border-radius: 15px;
 }
 
 body {
