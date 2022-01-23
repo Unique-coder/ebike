@@ -1,6 +1,8 @@
 import "./EbikeSection.css";
 import bike1 from "../asset/bike-1.svg";
 import bike2 from "../asset/bike-2.svg";
+import { FaArrowLeft } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 
 const EbikeSection = () => {
   return (
@@ -47,6 +49,15 @@ const EbikeSection = () => {
             </div>
             <button className="btn btn-order">Order</button>
           </div>
+        </div>
+      </div>
+      {/* Slide-Arrow */}
+      <div className="arrow-div">
+        <div className="arrow">
+          <FaArrowLeft style={{ color: "black" }} />
+        </div>
+        <div className="arrow">
+          <FaArrowRight style={{ color: "black" }} />
         </div>
       </div>
     </div>
