@@ -14,8 +14,9 @@
   border: 1px solid rgb(128, 0, 21);
   width: 60%;
 }
-.list li {
+.list > li {
   margin-right: 5px;
+  color: var(--text-soft);
 }
 .bold-B {
   color: #fff;
