@@ -2,6 +2,7 @@ import EbikeSection from "./components/EbikeSection";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import BlackModal from "./components/BlacKModal";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <EbikeSection />
       </div>
       <Footer />
+      <BlackModal />
     </div>
   );
 };
