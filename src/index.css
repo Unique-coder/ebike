@@ -26,7 +26,8 @@ ul {
   list-style-type: none;
 }
 
-a {
+a,
+li {
   text-decoration: none;
   color: var(--text-soft);
 }
@@ -36,14 +37,14 @@ a {
   margin: auto;
   min-height: 500px;
   border: 1px solid #ffbd37;
-  padding: 0px 50px;
+  padding: 0px 30px;
 }
 .bike-contain {
   max-width: 1140px;
   min-height: 500px;
-  margin-left: 8%;
+  margin: auto;
   border: 1px solid #ff3748;
-  padding: 30px 0px 0px 100px;
+  padding: 30px 0px 0px 0px;
 }
 
 .btn {

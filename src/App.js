@@ -2,19 +2,38 @@ import EbikeSection from "./components/EbikeSection";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className="App">
-      <div className="container">
+    <Router>
+      <div className="App">
         <Navbar />
-        <HeroSection />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <div className="container">
+                  <HeroSection />
+                </div>
+              </>
+            }
+          />
+          <Route
+            path="/ebikes"
+            element={
+              <>
+                <div className="bike-contain">
+                  <EbikeSection />
+                </div>
+              </>
+            }
+          />
+        </Routes>
+        <Footer />
       </div>
-      <div className="bike-contain">
-        <EbikeSection />
-      </div>
-      <Footer />
-    </div>
+    </Router>
   );
 };
 
