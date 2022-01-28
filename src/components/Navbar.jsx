@@ -8,7 +8,7 @@ const Navbar = () => {
         <span className="bold-B">B</span>eBike
       </h3>
       <ul className="list">
-        <li className="first-list">
+        <li>
           <Link to="/">Product</Link>
         </li>
         <li>

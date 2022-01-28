@@ -3,16 +3,16 @@
   display: flex;
   justify-content: space-between;
   padding: 10px 60px;
-  border: 1px solid green;
+  border-bottom: 0.5px solid #c2cfe0;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .list {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  border: 1px solid rgb(128, 0, 21);
+  /* border: 1px solid rgb(128, 0, 21); */
   /* width: 0%; */
 }
 .list > li {
