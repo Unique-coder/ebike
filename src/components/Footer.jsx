@@ -1,6 +1,5 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
-// 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
 
 const Footer = () => {
   return (
