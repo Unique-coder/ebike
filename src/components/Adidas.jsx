@@ -5,7 +5,7 @@ import bikeRider from "../asset/adidas-rider.svg";
 const Adidas = () => {
   return (
     <div className="bike-rider">
-      <BikeCard title="rider" bike={bikeRider} />
+      <BikeCard title="Bike Rider" bike={bikeRider} />
       <div className="about-biker">
         <h2 className="text-bold about-header">Hybrid Bikes</h2>
         <p className="text-soft about-para">
