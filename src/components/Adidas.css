@@ -1,0 +1,32 @@
+.bike-rider {
+  border: 1px solid blue;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-biker {
+  /* border: 1px solid red; */
+  width: 45%;
+}
+
+.about-header,
+.about-para {
+  margin-bottom: 50px;
+}
+.about-para {
+  line-height: 1.5em;
+}
+.btn-ride {
+  border: 1px solid #fcb72b;
+  padding: 8px 30px;
+  color: #fcb72b;
+  border-radius: 100px;
+  margin: 0;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #fff;
+}
