@@ -15,13 +15,13 @@
   justify-content: center;
 }
 
-.text-bold {
+.header {
   margin-bottom: 20px;
   font-weight: 400px;
   font-size: 2.5em;
 }
 
-.text-soft {
+.para {
   margin-bottom: 20px;
   width: 80%;
 }

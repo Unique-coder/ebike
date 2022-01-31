@@ -7,11 +7,11 @@ const HeroSection = () => {
       <div className="hero-header">
         {/* Left Side */}
         <div className="left">
-          <h1 className="text-bold">
+          <h1 className="text-bold header">
             Your Bike <br />
             Electric Update
           </h1>
-          <p className="text-soft">
+          <p className="text-soft para">
             Dummy text progressive, and affordable <br />
             healthcare, accessible on mobile and online for everyone
           </p>

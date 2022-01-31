@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Adidas from "./components/Adidas";
 
 const App = () => {
   return (
@@ -30,7 +31,18 @@ const App = () => {
               </>
             }
           />
+          <Route
+            path="/about"
+            element={
+              <>
+                <div>
+                  <Adidas />
+                </div>
+              </>
+            }
+          />
         </Routes>
+
         <Footer />
       </div>
     </Router>
